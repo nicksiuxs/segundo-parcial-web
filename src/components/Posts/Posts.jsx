@@ -20,7 +20,7 @@ const Posts = () => {
 
     return (
         <div className='posts'>
-            {isFetching ? <p>....cargando</p> : <ul>
+            {isFetching ? <p className='loading'>....cargando</p> : <ul>
                 {
                     posts?.map(post => <li key={post.id}><Post {...post} /></li>)
                 }
