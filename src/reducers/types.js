@@ -1,5 +1,6 @@
 const TYPES = {
-    FETCHING: "FETCHING"
+    FETCHING: "FETCHING",
+    ADD_DATA: "ADD_DATA"
 }
 
 export default TYPES;
