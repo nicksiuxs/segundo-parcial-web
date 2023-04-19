@@ -1,11 +1,12 @@
 import React from 'react'
+import "./Post.css";
 
 const Post = ({ userId, id, title, body }) => {
     return (
-        <div>
-            <span>id:{id}, userId: {userId}</span>
+        <div className='post'>
             <h2>{title}</h2>
-            <p>{body}</p>
+            <div>id:{id}, userId: {userId}</div>
+            <p>{body}.</p>
         </div>
     )
 }
